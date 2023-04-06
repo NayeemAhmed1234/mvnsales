@@ -7,7 +7,7 @@ public class Sample {
 	@Test(groups="smoke")
 	public void delete()
 	{
-		System.out.println("deleted successfully");
+		System.out.println("deleted essfully");
 	}
 
 }
