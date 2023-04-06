@@ -4,12 +4,12 @@ import org.testng.annotations.Test;
 
 public class SampleTest {
 	
-	@Test//(groups="smoke")
+	@Test(groups="smoke")
 	public void create()
 	{
 		System.out.println("created successfully");
 	}
-	@Test//(groups="regression")
+	@Test(groups="regression")
 	public void modify()
 	{
 		System.out.println("modified regression");
